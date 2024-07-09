@@ -1,118 +1,124 @@
+import type { Metadata } from 'next';
+
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24">
-			<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-				<p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
-					Get started by editing&nbsp;
-					<code className="font-mono font-bold">
-						src/app/page.tsx
-					</code>
-				</p>
-				<div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:size-auto lg:bg-none dark:from-black dark:via-black">
-					<a
-						className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-						href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						By{' '}
-						<Image
-							src="/vercel.svg"
-							alt="Vercel Logo"
-							className="dark:invert"
-							width={100}
-							height={24}
-							priority
-						/>
-					</a>
+		<>
+			<section id="home-hero">
+				<div className="relative h-screen">
+					<Image
+						className="h-full w-full object-cover"
+						src="/image/background1.jpg"
+						alt="Background 1"
+						fill={true}
+					/>
+					<div className="absolute inset-0 bg-black opacity-15"></div>
 				</div>
-			</div>
-
-			<div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40">
-				<Image
-					className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-					src="/next.svg"
-					alt="Next.js Logo"
-					width={180}
-					height={37}
-					priority
-				/>
-			</div>
-
-			<div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-				<a
-					href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2 className="mb-3 text-2xl font-semibold">
-						Docs{' '}
-						<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-							-&gt;
-						</span>
+				<div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/4 text-center text-white">
+					<h1 className="mb-12 text-8xl">World Wide Access</h1>
+					<p className="mb-12 text-4xl">Discover your journey.</p>
+					<div className="m-auto flex h-20 w-96 bg-rose-700 hover:bg-rose-800">
+						<Link
+							href="/consultation"
+							className="h-full w-full content-center text-lg"
+						>
+							Book a Consultation
+						</Link>
+					</div>
+				</div>
+				<div className="flex h-[32rem] w-full flex-col py-20 lg:flex-row lg:py-0">
+					<h2 className="left-0 flex flex-1 items-center px-12 text-5xl lg:p-12">
+						A new journey awaits
 					</h2>
-					<p className="m-0 max-w-[30ch] text-sm opacity-50">
-						Find in-depth information about Next.js features and
-						API.
+					<p className="flex flex-1 items-center justify-center px-12 text-2xl lg:p-12">
+						Founded in 1921, Sackett Woodworking is a
+						fourth-generation family business dedicated to the art
+						and craft of fine carpentry. From grand homes to one of
+						a kind heirlooms, we approach every project as a unique
+						opportunity to apple classNameic woodworking techniques
+						to modern aesthetics.
 					</p>
-				</a>
-
-				<a
-					href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2 className="mb-3 text-2xl font-semibold">
-						Learn{' '}
-						<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-							-&gt;
-						</span>
+				</div>
+			</section>
+			<section id="home-testimonial">
+				<div className="relative h-[32rem]">
+					<Image
+						className="h-full w-full object-cover"
+						src="/image/background2.jpg"
+						alt="Background 2"
+						fill={true}
+					/>
+					<div className="absolute inset-0 bg-black opacity-15"></div>
+				</div>
+				<div className="flex w-full flex-col p-12 lg:flex-row">
+					<h2 className="flex flex-1 items-center text-5xl">
+						Testimonials
 					</h2>
-					<p className="m-0 max-w-[30ch] text-sm opacity-50">
-						Learn about Next.js in an interactive course
-						with&nbsp;quizzes!
+					<div className="flex flex-1 flex-col">
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<p className="mb-5 italic">
+								“When we bought our 1890s home, the original
+								front door was beyond repair. Sackett was able
+								to make an exact copy, down to the hand chiseled
+								details. It’s a work of art.”
+							</p>
+							<strong>— Mollie G.</strong>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<p className="mb-5 italic">
+								“Sackett designed and built a custom dining set
+								for our vacation home. Without fail, it’s the
+								thing everyone comments on. I couldn’t be
+								happier with the work and the experience of
+								designing it with them.”
+							</p>
+							<strong>— Gabriel H.</strong>
+						</div>
+						<div className="mt-20 lg:mt-0">
+							<p className="mb-5 italic">
+								“It’s nearly impossible to find people who still
+								apply classic woodworking techniques, but
+								Sackett is keeping those traditions alive. Their
+								work has a beautiful and timeless quality.”
+							</p>
+							<strong>— Griffin H.</strong>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="home-consultation">
+				<div className="relative h-[32rem]">
+					<Image
+						className="h-full w-full object-cover"
+						src="/image/background3.jpg"
+						alt="Background 3"
+						priority={true}
+						fill={true}
+					/>
+					<div className="absolute inset-0 bg-black opacity-15"></div>
+				</div>
+				<div className="flex h-[32rem] flex-col items-center justify-center bg-[#282d30] text-center text-white">
+					<h1 className="text-5xl text-white">Book a Consultation</h1>
+					<p className="pb-28 pt-12 text-2xl">
+						We’ll walk you through every step of the process.
 					</p>
-				</a>
-
-				<a
-					href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2 className="mb-3 text-2xl font-semibold">
-						Templates{' '}
-						<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-							-&gt;
-						</span>
-					</h2>
-					<p className="m-0 max-w-[30ch] text-sm opacity-50">
-						Explore starter templates for Next.js.
-					</p>
-				</a>
-
-				<a
-					href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<h2 className="mb-3 text-2xl font-semibold">
-						Deploy{' '}
-						<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-							-&gt;
-						</span>
-					</h2>
-					<p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-						Instantly deploy your Next.js site to a shareable URL
-						with Vercel.
-					</p>
-				</a>
-			</div>
-		</main>
+					<div className="flex h-20 w-96 bg-rose-700 hover:bg-rose-800">
+						<Link
+							href="/consultation"
+							className="m-auto h-full w-full content-center text-lg"
+						>
+							Book a Consultation
+						</Link>
+					</div>
+				</div>
+			</section>
+		</>
 	);
 }
+
+export const metadata: Metadata = {
+	title: 'World Wide Access',
+	description: 'Generated by create next app',
+};
