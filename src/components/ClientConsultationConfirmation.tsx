@@ -55,8 +55,8 @@ export default function ClientConsultationConfirmation({
 				<Body className="font-sans text-base">
 					<Img
 						src={`${baseURL}/image/logo.png`}
-						width="184"
-						height="75"
+						width="200"
+						height="200"
 						alt="World Wide Access Logo"
 						className="mx-auto my-20"
 					/>

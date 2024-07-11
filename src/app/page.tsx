@@ -46,52 +46,6 @@ export default function Home() {
 					</p>
 				</div>
 			</section>
-			{/* <section id="home-testimonial">
-				<div className="relative h-[32rem]">
-					<Image
-						className="h-full w-full object-cover"
-						src="/image/background2.jpg"
-						alt="Background 2"
-						fill={true}
-					/>
-					<div className="absolute inset-0 bg-black opacity-15"></div>
-				</div>
-				<div className="flex w-full flex-col p-12 lg:flex-row">
-					<h2 className="flex flex-1 items-center text-5xl">
-						Testimonials
-					</h2>
-					<div className="flex flex-1 flex-col">
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<p className="mb-5 italic">
-								“When we bought our 1890s home, the original
-								front door was beyond repair. Sackett was able
-								to make an exact copy, down to the hand chiseled
-								details. It’s a work of art.”
-							</p>
-							<strong>— Mollie G.</strong>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<p className="mb-5 italic">
-								“Sackett designed and built a custom dining set
-								for our vacation home. Without fail, it’s the
-								thing everyone comments on. I couldn’t be
-								happier with the work and the experience of
-								designing it with them.”
-							</p>
-							<strong>— Gabriel H.</strong>
-						</div>
-						<div className="mt-20 lg:mt-0">
-							<p className="mb-5 italic">
-								“It’s nearly impossible to find people who still
-								apply classic woodworking techniques, but
-								Sackett is keeping those traditions alive. Their
-								work has a beautiful and timeless quality.”
-							</p>
-							<strong>— Griffin H.</strong>
-						</div>
-					</div>
-				</div>
-			</section> */}
 			<section id="home-consultation">
 				<div className="relative h-[32rem]">
 					<Image
