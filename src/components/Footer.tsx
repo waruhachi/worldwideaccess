@@ -15,7 +15,11 @@ export default function Footer() {
 				+64 22 621 7282
 			</h1>
 			<div className="flex flex-row">
-				<Link href="https://www.facebook.com" className="mx-2">
+				<Link
+					href="https://www.facebook.com"
+					className="mx-2"
+					target="_blank"
+				>
 					<Image
 						src="/svg/Facebook.svg"
 						alt="Facebook"
@@ -23,7 +27,11 @@ export default function Footer() {
 						height={24}
 					/>
 				</Link>
-				<Link href="https://www.instagram.com" className="mx-2">
+				<Link
+					href="https://www.instagram.com"
+					className="mx-2"
+					target="_blank"
+				>
 					<Image
 						src="/svg/Instagram.svg"
 						alt="Instagram"
