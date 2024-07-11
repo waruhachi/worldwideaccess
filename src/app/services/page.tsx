@@ -18,40 +18,114 @@ export default function Services() {
 					<div className="flex flex-1 flex-col">
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">
-								Course and University Selection
+								Assessment and Profile Evaluation
 							</h1>
-							<p className="text-lg">
-								Advising students on suitable universities and
-								courses based on their academic background,
-								career goals, and budget.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Student Profile Assessment</strong>:
+									Evaluating academic qualifications,
+									including grades, test scores (SAT, ACT,
+									etc.), extracurricular activities, and
+									achievements.
+								</li>
+								<br />
+								<li>
+									<strong>
+										Career Goals and Aspirations
+									</strong>
+									: Understanding the student&apos;s career
+									objectives to recommend suitable courses and
+									universities that align with their interests
+									and future plans.
+								</li>
+							</ul>
 						</div>
 						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">Test Preparation</h1>
-							<p className="text-lg">
-								Providing guidance and resources for
-								standardized tests such as TOEFL, IELTS, GRE,
-								GMAT, etc.
-							</p>
+							<h1 className="mb-8 text-2xl">
+								Course and University Selection
+							</h1>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Research and Shortlisting</strong>:
+									Conducting thorough research on universities
+									and courses worldwide that match the
+									student&apos;s profile and preferences.
+									Considering factors such as academic
+									reputation, faculty expertise, facilities,
+									location, and campus culture.
+								</li>
+								<br />
+							</ul>
 						</div>
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">
 								Application Assistance
 							</h1>
-							<p className="text-lg">
-								Helping with the application process, including
-								filling out forms, writing essays, and preparing
-								necessary documents.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Application Strategy</strong>:
+									Advising on the application process,
+									including timelines, required documents
+									(transcripts, letters of recommendation),
+									and standardized tests (TOEFL, IELTS, GRE,
+									GMAT, etc.). Assisting with drafting
+									personal statements or essays.
+								</li>
+								<br />
+								<li>
+									<strong>Application Support</strong>:
+									Helping with filling out forms and preparing
+									necessary documents.
+								</li>
+							</ul>
 						</div>
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">
-								Interview Preparation
+								Test and Interview Preparation
 							</h1>
-							<p className="text-lg">
-								Coaching students for university interviews, if
-								required.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Test Preparation</strong>: Providing
+									guidance and resources for standardized
+									tests.
+								</li>
+								<br />
+								<li>
+									<strong>Interview Preparation</strong>:
+									Coaching students for university and visa
+									interviews, including mock interviews and
+									guidance on interview etiquette.
+								</li>
+							</ul>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Financial Planning
+							</h1>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Tuition Fees</strong>: Providing
+									detailed information on tuition fees,
+									payment methods, deadlines, and assistance
+									in exploring scholarships or financial aid
+									options.
+								</li>
+								<br />
+								<li>
+									<strong>Living Expenses</strong>: Offering
+									guidance on estimating and managing living
+									costs, including accommodation, food,
+									transportation, and personal expenses.
+									Providing budgeting tips and cost-saving
+									strategies.
+								</li>
+								<br />
+								<li>
+									<strong>Currency Exchange</strong>: Advising
+									on currency exchange rates, fees, and
+									methods for transferring funds.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -62,29 +136,20 @@ export default function Services() {
 					<div className="flex flex-1 flex-col">
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">Visa Guidance</h1>
-							<p className="text-lg">
-								Providing information on visa requirements and
-								assisting with the visa application process.
-							</p>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">
-								Document Preparation
-							</h1>
-							<p className="text-lg">
-								Ensuring all required documents are properly
-								filled out and submitted.
-							</p>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">
-								Interview Preparation
-							</h1>
-							<p className="text-lg">
-								Preparing students for visa interviews,
-								including mock interviews and guidance on
-								interview etiquette.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Visa Requirements</strong>:
+									Providing information on visa requirements
+									and assisting with the visa application
+									process.
+								</li>
+								<br />
+								<li>
+									<strong>Document Preparation</strong>:
+									Ensuring all required documents are properly
+									filled out and submitted.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -93,49 +158,81 @@ export default function Services() {
 					<div className="flex flex-1 flex-col">
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">
-								Financial Planning
-							</h1>
-							<p className="text-lg">
-								Offering advice on managing finances abroad,
-								including tuition fees, living expenses, and
-								currency exchange.
-							</p>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">
-								Legal and Regulatory Compliance
-							</h1>
-							<p className="text-lg">
-								Ensuring that all processes comply with the
-								immigration laws and regulations of the
-								destination country.
-							</p>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">
 								Accommodation Assistance
 							</h1>
-							<p className="text-lg">
-								Helping students find suitable accommodation
-								options near their chosen university.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Research and Shortlisting</strong>:
+									Assisting students in researching
+									accommodation options, including student
+									residences, private rentals, and homestays.
+								</li>
+								<br />
+								<li>
+									<strong>Application Support</strong>:
+									Helping navigate the application process for
+									accommodation, including required documents,
+									deadlines, and contacting landlords or
+									providers.
+								</li>
+								<br />
+								<li>
+									<strong>Safety and Convenience</strong>:
+									Advising on safety, proximity to campus,
+									amenities, and suitability based on
+									preferences and budget.
+								</li>
+							</ul>
 						</div>
 						<div className="mt-20 lg:mb-20 lg:mt-0">
 							<h1 className="mb-8 text-2xl">
 								Post-Arrival Support
 							</h1>
-							<p className="text-lg">
-								Providing information on local laws, culture,
-								and amenities in the destination country.
-							</p>
-						</div>
-						<div className="mt-20 lg:mb-20 lg:mt-0">
-							<h1 className="mb-8 text-2xl">Follow-up Support</h1>
-							<p className="text-lg">
-								Assisting students during their stay abroad,
-								addressing any issues that may arise and
-								providing ongoing support.
-							</p>
+							<ul className="ml-8 list-disc text-lg">
+								<li>
+									<strong>Orientation</strong>: Providing
+									comprehensive orientation on local laws,
+									cultural norms, emergency contacts, and
+									healthcare services.
+								</li>
+								<br />
+								<li>
+									<strong>Academic Support</strong>: Offering
+									guidance on academic resources and support
+									services, such as academic advisors,
+									tutoring services, library facilities, and
+									study groups.
+								</li>
+								<br />
+								<li>
+									<strong>Social Integration</strong>:
+									Facilitating opportunities for social
+									integration through student clubs, cultural
+									events, language exchange programs, and
+									extracurricular activities.
+								</li>
+								<br />
+								<li>
+									<strong>Health and Well-being</strong>:
+									Providing information on healthcare
+									facilities, health insurance requirements,
+									and wellness resources.
+								</li>
+								<br />
+								<li>
+									<strong>Compliance Assurance</strong>:
+									Ensuring all processes comply with the
+									immigration laws and regulations of the
+									destination country.
+								</li>
+								<br />
+								<li>
+									<strong>Ongoing Assistance</strong>:
+									Assisting students during their stay abroad,
+									addressing any issues that may arise, and
+									providing ongoing support.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
