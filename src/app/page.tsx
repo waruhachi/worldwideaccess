@@ -33,16 +33,20 @@ export default function Home() {
 						A new journey awaits
 					</h2>
 					<p className="flex flex-1 items-center justify-center px-12 text-2xl lg:p-12">
-						Founded in 1921, Sackett Woodworking is a
-						fourth-generation family business dedicated to the art
-						and craft of fine carpentry. From grand homes to one of
-						a kind heirlooms, we approach every project as a unique
-						opportunity to apple classNameic woodworking techniques
-						to modern aesthetics.
+						World Wide Access is a premier educational consultancy
+						committed to helping students from around the globe
+						secure admission to top colleges in the US and
+						internationally. Our team of dedicated experts guides
+						each student through the intricate application process,
+						offering personalized support and strategies to enhance
+						their educational opportunities. At World Wide Access,
+						we believe in transforming dreams into reality by
+						providing unparalleled guidance and access to
+						world-class educational institutions.
 					</p>
 				</div>
 			</section>
-			<section id="home-testimonial">
+			{/* <section id="home-testimonial">
 				<div className="relative h-[32rem]">
 					<Image
 						className="h-full w-full object-cover"
@@ -87,7 +91,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 			<section id="home-consultation">
 				<div className="relative h-[32rem]">
 					<Image

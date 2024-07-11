@@ -2,7 +2,7 @@
 
 import '@/styles/globals.css';
 
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Playfair_Display } from 'next/font/google';
 import { usePathname } from 'next/navigation';
 
 import { Analytics } from '@vercel/analytics/react';

@@ -11,66 +11,130 @@ export default function Services() {
 				</div>
 			</section>
 			<section id="service-services">
-				<div className="flex h-[70rem] w-full">
-					<div className="flex w-1/2 flex-col justify-evenly px-12">
-						<div>
-							<h1 className="mb-8 text-4xl">Service One</h1>
-							<p className="text-2xl">
-								The following text is placeholder known as
-								“lorem ipsum,” which is scrambled Latin used by
-								designers to mimic real copy. Lorem ipsum dolor
-								sit amet Nullam vel ultricies metus, at
-								tincidunt arcu. Morbi vestibulum, ligula ut
-								efficitur mollis, mi massa accumsan justo,
-								accumsan auctor orci lectus ac ipsum. Proin
-								porta nisl sem, ac suscipit lorem dignissim et.
-								Curabitur euismod nec augue vitae dictum.
+				<div className="flex w-full flex-col p-12 lg:flex-row">
+					<h2 className="flex flex-1 text-4xl">
+						Education Consultancy
+					</h2>
+					<div className="flex flex-1 flex-col">
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Course and University Selection
+							</h1>
+							<p className="text-lg">
+								Advising students on suitable universities and
+								courses based on their academic background,
+								career goals, and budget.
 							</p>
 						</div>
-						<div>
-							<h1 className="mb-8 text-4xl">Service Two</h1>
-							<p className="text-2xl">
-								The following text is placeholder known as
-								“lorem ipsum,” which is scrambled Latin used by
-								designers to mimic real copy. Lorem ipsum dolor
-								sit amet Nullam vel ultricies metus, at
-								tincidunt arcu. Morbi vestibulum, ligula ut
-								efficitur mollis, mi massa accumsan justo,
-								accumsan auctor orci lectus ac ipsum. Proin
-								porta nisl sem, ac suscipit lorem dignissim et.
-								Curabitur euismod nec augue vitae dictum.
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">Test Preparation</h1>
+							<p className="text-lg">
+								Providing guidance and resources for
+								standardized tests such as TOEFL, IELTS, GRE,
+								GMAT, etc.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Application Assistance
+							</h1>
+							<p className="text-lg">
+								Helping with the application process, including
+								filling out forms, writing essays, and preparing
+								necessary documents.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Interview Preparation
+							</h1>
+							<p className="text-lg">
+								Coaching students for university interviews, if
+								required.
 							</p>
 						</div>
 					</div>
-					<div className="flex w-1/2 flex-col justify-evenly px-12">
-						<div>
-							<h1 className="mb-8 text-2xl">Sub-Service One</h1>
+				</div>
+				<div className="flex w-full flex-col p-12 lg:flex-row">
+					<h2 className="flex flex-1 text-4xl">
+						Visa Consultancy Services
+					</h2>
+					<div className="flex flex-1 flex-col">
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">Visa Guidance</h1>
 							<p className="text-lg">
-								The following text is placeholder known as
-								“lorem ipsum,” which is scrambled Latin used by
-								designers to mimic real copy. Lorem ipsum dolor
-								sit amet Nullam vel ultricies metus, at
-								tincidunt arcu.
+								Providing information on visa requirements and
+								assisting with the visa application process.
 							</p>
 						</div>
-						<div>
-							<h1 className="mb-8 text-2xl">Sub-Service Two</h1>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Document Preparation
+							</h1>
 							<p className="text-lg">
-								The following text is placeholder known as
-								“lorem ipsum,” which is scrambled Latin used by
-								designers to mimic real copy. Lorem ipsum dolor
-								sit amet Nullam vel ultricies metus, at
-								tincidunt arcu.
+								Ensuring all required documents are properly
+								filled out and submitted.
 							</p>
 						</div>
-						<div>
-							<h1 className="mb-8 text-2xl">Sub-Service Three</h1>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Interview Preparation
+							</h1>
 							<p className="text-lg">
-								The following text is placeholder known as
-								“lorem ipsum,” which is scrambled Latin used by
-								designers to mimic real copy. Lorem ipsum dolor
-								sit amet Nullam vel ultricies metus, at
-								tincidunt arcu.
+								Preparing students for visa interviews,
+								including mock interviews and guidance on
+								interview etiquette.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="flex w-full flex-col p-12 lg:flex-row">
+					<h2 className="flex flex-1 text-4xl">Other Services</h2>
+					<div className="flex flex-1 flex-col">
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Financial Planning
+							</h1>
+							<p className="text-lg">
+								Offering advice on managing finances abroad,
+								including tuition fees, living expenses, and
+								currency exchange.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Legal and Regulatory Compliance
+							</h1>
+							<p className="text-lg">
+								Ensuring that all processes comply with the
+								immigration laws and regulations of the
+								destination country.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Accommodation Assistance
+							</h1>
+							<p className="text-lg">
+								Helping students find suitable accommodation
+								options near their chosen university.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">
+								Post-Arrival Support
+							</h1>
+							<p className="text-lg">
+								Providing information on local laws, culture,
+								and amenities in the destination country.
+							</p>
+						</div>
+						<div className="mt-20 lg:mb-20 lg:mt-0">
+							<h1 className="mb-8 text-2xl">Follow-up Support</h1>
+							<p className="text-lg">
+								Assisting students during their stay abroad,
+								addressing any issues that may arise and
+								providing ongoing support.
 							</p>
 						</div>
 					</div>
