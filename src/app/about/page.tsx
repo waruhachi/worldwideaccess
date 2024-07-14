@@ -12,83 +12,59 @@ export default function About() {
 				</div>
 			</section>
 			<section className="about-story">
-				{/* <div className="relative h-[65rem]">
-					<Image
-						className="h-full w-full object-cover"
-						src="/image/background4.jpg"
-						alt="Background 4"
-						fill={true}
-					/>
-					<div className="absolute inset-0 bg-black opacity-15"></div>
-				</div> */}
 				<div className="flex flex-col items-center justify-center">
 					<p className="w-[48rem] py-16 text-2xl">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua. Sodales neque sodales ut etiam sit amet
-						nisl purus. Id neque aliquam vestibulum morbi blandit
-						cursus risus at. Malesuada fames ac turpis egestas
-						maecenas pharetra. Egestas sed sed risus pretium.
-						Ullamcorper morbi tincidunt ornare massa eget egestas.
-						Sodales neque sodales ut etiam. Arcu odio ut sem nulla
-						pharetra diam sit. Mauris commodo quis imperdiet massa.
-						Tempus iaculis urna id volutpat lacus. Fermentum et
-						sollicitudin ac orci. Semper viverra nam libero justo
-						laoreet. Placerat orci nulla pellentesque dignissim enim
-						sit amet venenatis. Mus mauris vitae ultricies leo
-						integer malesuada nunc vel risus. Urna porttitor rhoncus
-						dolor purus non enim praesent elementum. Proin libero
-						nunc consequat interdum varius sit. Sagittis nisl
-						rhoncus mattis rhoncus urna neque viverra justo. Nunc
-						aliquet bibendum enim facilisis. Tempus quam
-						pellentesque nec nam aliquam sem et tortor. Laoreet sit
-						amet cursus sit amet dictum sit.
+						Welcome to World Wide Access, your guide to navigating
+						the journey of studying abroad. Whether you&apos;re
+						dreaming of pursuing your education in the United
+						States, Canada, New Zealand, or Australia, we&apos;re
+						here to simplify the process and support you every step
+						of the way.
 					</p>
-				</div>
-				{/* <div className="relative h-[65rem]">
-					<Image
-						className="h-full w-full object-cover"
-						src="/image/background5.jpg"
-						alt="Background 5"
-						fill={true}
-					/>
-					<div className="absolute inset-0 bg-black opacity-15"></div>
-				</div> */}
-				<div className="flex flex-col items-center justify-center">
+					<p className="w-[48rem] py-16 text-2xl">
+						At World Wide Access, we are passionate about empowering
+						students worldwide to achieve their academic goals. We
+						provide comprehensive resources and expert guidance to
+						make your study abroad experience seamless and
+						successful.
+					</p>
 					<p className="w-[48rem] pt-16 text-2xl">
-						Eget mi proin sed libero enim. Justo laoreet sit amet
-						cursus sit amet dictum. Imperdiet massa tincidunt nunc
-						pulvinar sapien. Eget sit amet tellus cras. Vitae
-						elementum curabitur vitae nunc sed velit dignissim.
-						Commodo sed egestas egestas fringilla phasellus. Justo
-						donec enim diam vulputate ut pharetra sit. Facilisis
-						mauris sit amet massa vitae tortor condimentum. Sit amet
-						consectetur adipiscing elit pellentesque. Pharetra vel
-						turpis nunc eget. Purus faucibus ornare suspendisse sed
-						nisi lacus sed viverra tellus. Lorem ipsum dolor sit
-						amet. Quis blandit turpis cursus in hac habitasse
-						platea. Bibendum ut tristique et egestas quis ipsum
-						suspendisse ultrices. Sit amet consectetur adipiscing
-						elit duis. Lectus mauris ultrices eros in cursus. Mollis
-						nunc sed id semper risus in hendrerit. Turpis cursus in
-						hac habitasse platea dictumst quisque sagittis purus.
-						Dui faucibus in ornare quam viverra orci sagittis eu.
+						World Wide Access was born out of a personal journey. As
+						former international students ourselves, We understand
+						firsthand the challenges and uncertainties that come
+						with navigating the process of obtaining a student visa
+						and gaining admission to universities abroad. From
+						grappling with visa applications to deciphering
+						admission requirements across different countries like
+						the USA, Canada, New Zealand, and Australia, We
+						experienced the overwhelming lack of accessible and
+						reliable information for prospective students. Driven by
+						my own struggles and determination to help others avoid
+						similar hurdles, we founded World Wide Access to bridge
+						this gap. Our mission is simple yet profound: to empower
+						and guide aspiring students worldwide towards their
+						educational dreams. We believe that with the right
+						knowledge, support, and resources, every student can
+						embark on a successful journey of studying abroad.
 					</p>
 					<p className="w-[48rem] py-16 text-2xl">
-						Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
-						Pellentesque adipiscing commodo elit at imperdiet dui
-						accumsan sit. Pharetra massa massa ultricies mi quis
-						hendrerit dolor. Id donec ultrices tincidunt arcu non
-						sodales. Viverra tellus in hac habitasse. Tellus integer
-						feugiat scelerisque varius morbi enim. Suscipit
-						adipiscing bibendum est ultricies integer quis auctor.
-						Diam maecenas sed enim ut. Massa vitae tortor
-						condimentum lacinia quis vel. Mauris commodo quis
-						imperdiet massa tincidunt nunc pulvinar. Sagittis
-						aliquam malesuada bibendum arcu vitae elementum.
-						Elementum sagittis vitae et leo duis ut diam quam nulla.
-						Auctor urna nunc id cursus metus aliquam eleifend. Eros
-						in cursus turpis massa tincidunt dui ut.
+						With years of experience in international education, we
+						have helped countless students fulfill their dreams of
+						studying abroad. We understand that each student&apos;s
+						journey is unique, which is why we offer personalized
+						assistance tailored to your specific needs and
+						aspirations. From visa application processes to
+						university admissions criteria, we provide up-to-date
+						and detailed information to ensure you are well-informed
+						at every stage. We offer step-by-step guidance on the
+						visa application process for each country, ensuring you
+						meet all requirements and deadlines. Additionally, we
+						provide insights into admission criteria, application
+						procedures, and tips for crafting compelling personal
+						statements and essays. Our resources include articles,
+						guides, and FAQs covering a wide range of topics related
+						to studying abroad, from choosing the right program to
+						adapting to life in a new country.
 					</p>
 				</div>
 			</section>
