@@ -20,7 +20,7 @@ export default function Header({ color }: HeaderProps) {
 
 	return (
 		<header
-			className={`xs:p-8 absolute top-0 z-10 flex h-40 w-full items-center justify-between sm:p-16 text-${color}`}
+			className={`absolute top-0 z-10 flex h-40 w-full items-center justify-between xs:p-8 sm:p-16 text-${color}`}
 		>
 			<Link href="/" className="text-3xl">
 				World Wide Access

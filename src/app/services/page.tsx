@@ -245,7 +245,7 @@ export default function Services() {
 					<p className="pb-16 pt-12 text-2xl">
 						We&apos;ll walk you through every step of the process.
 					</p>
-					<div className="xs:w-48 xs:h-10 flex w-auto bg-rose-700 hover:bg-rose-800 md:h-20 lg:w-96">
+					<div className="flex w-auto bg-rose-700 hover:bg-rose-800 xs:h-10 xs:w-48 md:h-20 lg:w-96">
 						<Link
 							href="/consultation"
 							className="m-auto h-full w-full content-center text-lg"
