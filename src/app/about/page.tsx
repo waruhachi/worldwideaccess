@@ -1,19 +1,18 @@
 import type { Metadata } from 'next';
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function About() {
 	return (
 		<>
 			<section id="about-hero">
-				<div className="flex h-[30rem] w-full flex-col justify-center bg-[#edc677] text-center">
+				<div className="flex min-h-[30rem] w-full flex-col justify-center bg-[#edc677] text-center">
 					<h1 className="text-8xl">About</h1>
 				</div>
 			</section>
 			<section className="about-story">
-				<div className="flex flex-col items-center justify-center">
-					<p className="w-[48rem] py-16 text-2xl">
+				<div className="flex max-w-[48rem] flex-col items-center justify-center space-y-12 p-16 text-justify text-2xl">
+					<p>
 						Welcome to World Wide Access, your guide to navigating
 						the journey of studying abroad. Whether you&apos;re
 						dreaming of pursuing your education in the United
@@ -21,14 +20,14 @@ export default function About() {
 						here to simplify the process and support you every step
 						of the way.
 					</p>
-					<p className="w-[48rem] py-16 text-2xl">
+					<p>
 						At World Wide Access, we are passionate about empowering
 						students worldwide to achieve their academic goals. We
 						provide comprehensive resources and expert guidance to
 						make your study abroad experience seamless and
 						successful.
 					</p>
-					<p className="w-[48rem] pt-16 text-2xl">
+					<p>
 						World Wide Access was born out of a personal journey. As
 						former international students ourselves, We understand
 						firsthand the challenges and uncertainties that come
@@ -47,7 +46,7 @@ export default function About() {
 						knowledge, support, and resources, every student can
 						embark on a successful journey of studying abroad.
 					</p>
-					<p className="w-[48rem] py-16 text-2xl">
+					<p>
 						With years of experience in international education, we
 						have helped countless students fulfill their dreams of
 						studying abroad. We understand that each student&apos;s
@@ -69,14 +68,14 @@ export default function About() {
 				</div>
 			</section>
 			<section id="about-consultation">
-				<div className="flex h-[32rem] flex-col items-center justify-center bg-[#282d30] text-center text-white">
-					<h1 className="m-auto text-8xl text-[#b5944d]">
+				<div className="flex min-h-[32rem] flex-col items-center justify-center bg-[#282d30] p-12 text-center text-white">
+					<h1 className="text-5xl text-[#b5944d]">
 						Book a Consultation
 					</h1>
-					<p className="text-4xl">
-						We’ll walk you through every step of the process.
+					<p className="pb-16 pt-12 text-2xl">
+						We&apos;ll walk you through every step of the process.
 					</p>
-					<div className="m-auto flex h-20 w-96 bg-rose-700 hover:bg-rose-800">
+					<div className="xs:w-48 xs:h-10 flex w-auto bg-rose-700 hover:bg-rose-800 md:h-20 lg:w-96">
 						<Link
 							href="/consultation"
 							className="m-auto h-full w-full content-center text-lg"
@@ -93,4 +92,8 @@ export default function About() {
 export const metadata: Metadata = {
 	title: 'About | World Wide Access',
 	description: 'Discover your journey',
+	icons: {
+		icon: 'https://worldwideaccess.org/image/logo.png',
+		apple: 'https://worldwideaccess.org/image/logo.png',
+	},
 };

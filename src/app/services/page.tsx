@@ -6,12 +6,12 @@ export default function Services() {
 	return (
 		<>
 			<section id="service-hero">
-				<div className="flex h-[30rem] w-full flex-col justify-center bg-[#edc677] text-center">
+				<div className="flex min-h-[30rem] w-full flex-col justify-center bg-[#edc677] text-center">
 					<h1 className="text-8xl">Services</h1>
 				</div>
 			</section>
 			<section id="service-services">
-				<div className="flex w-full flex-col p-12 lg:flex-row">
+				<div className="flex w-full flex-col p-16 lg:flex-row">
 					<h2 className="flex flex-1 text-4xl">
 						Education Consultancy
 					</h2>
@@ -129,7 +129,7 @@ export default function Services() {
 						</div>
 					</div>
 				</div>
-				<div className="flex w-full flex-col p-12 lg:flex-row">
+				<div className="flex w-full flex-col p-16 lg:flex-row">
 					<h2 className="flex flex-1 text-4xl">
 						Visa Consultancy Services
 					</h2>
@@ -153,7 +153,7 @@ export default function Services() {
 						</div>
 					</div>
 				</div>
-				<div className="flex w-full flex-col p-12 lg:flex-row">
+				<div className="flex w-full flex-col p-16 lg:flex-row">
 					<h2 className="flex flex-1 text-4xl">Other Services</h2>
 					<div className="flex flex-1 flex-col">
 						<div className="mt-20 lg:mb-20 lg:mt-0">
@@ -238,14 +238,14 @@ export default function Services() {
 				</div>
 			</section>
 			<section id="service-consultation">
-				<div className="flex h-[32rem] flex-col items-center justify-center bg-[#282d30] text-center text-white">
-					<h1 className="m-auto text-8xl text-[#b5944d]">
+				<div className="flex min-h-[32rem] flex-col items-center justify-center bg-[#282d30] p-12 text-center text-white">
+					<h1 className="text-5xl text-[#b5944d]">
 						Book a Consultation
 					</h1>
-					<p className="text-4xl">
-						We’ll walk you through every step of the process.
+					<p className="pb-16 pt-12 text-2xl">
+						We&apos;ll walk you through every step of the process.
 					</p>
-					<div className="m-auto flex h-20 w-96 bg-rose-700 hover:bg-rose-800">
+					<div className="xs:w-48 xs:h-10 flex w-auto bg-rose-700 hover:bg-rose-800 md:h-20 lg:w-96">
 						<Link
 							href="/consultation"
 							className="m-auto h-full w-full content-center text-lg"
@@ -262,4 +262,8 @@ export default function Services() {
 export const metadata: Metadata = {
 	title: 'Services | World Wide Access',
 	description: 'Discover your journey',
+	icons: {
+		icon: 'https://worldwideaccess.org/image/logo.png',
+		apple: 'https://worldwideaccess.org/image/logo.png',
+	},
 };
