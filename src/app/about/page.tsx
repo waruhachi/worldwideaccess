@@ -11,7 +11,7 @@ export default function About() {
 				</div>
 			</section>
 			<section className="about-story">
-				<div className="flex max-w-[48rem] flex-col items-center justify-center space-y-12 p-16 text-justify text-2xl">
+				<div className="m-auto flex max-w-[48rem] flex-col items-center justify-center space-y-12 p-16 text-justify text-2xl">
 					<p>
 						Welcome to World Wide Access, your guide to navigating
 						the journey of studying abroad. Whether you&apos;re
